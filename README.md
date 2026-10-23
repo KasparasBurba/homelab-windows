@@ -9,12 +9,15 @@
 1. **Active Directory & User Management**
 * **Where:** Active Directory Users and Computers (dsa.msc)
 * **What I did:** Created a custom domain (lab.local), set up Organizational Units (OUs) to mimic company departments and added a test user account.
+![OUs and a user](./ActiveDirectory&UserManagment.png)
 2. **Group Policy (GPO)**
 * **Where:** Group Policy Management (gpmc.msc)
 * **What I did:** Created and linked a custom Group Policy Object to control settings and apply a restriction across specific department OUs.
+![Custom GPO with prohibited access](./GroupPolicy(GPO).png)
 3. **DHCP & Network Automation**
 * **Where:** DHCP Manager (dhcpmgmt.msc)
 * **What I did:** Set up an IPv4 scope (192.168.10.100 to 192.168.10.200) so machines can automatically get IP addresses and network configs without manual setup.
+![Client with automatically assigned IP address](./DHCP&NetworkAutomation.png)
 
 ## Skills Practiced
 * Setting up a Windows Domain Controller from scratch
